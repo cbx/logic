@@ -18,7 +18,7 @@ grammar Logic
   end
 
   rule condition
-    [A-Za-z_\/] [A-Za-z_0-9\:]* <Condition>
+    [A-Za-z_\/] [A-Za-z_0-9\:\.]* <Condition>
   end
 
   rule parenthesized
